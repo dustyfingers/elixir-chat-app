@@ -4,6 +4,8 @@
     chat goes here...
   </div>
 
+  <!-- chat input form -->
   <%= f = form_for :chat, "#", id: "chat-form", phx_submit: :submit_message %>
     <%= text_input f, :message, placeholder: "Enter a message..." %>
+  <!-- chat input form end -->
 </div>
